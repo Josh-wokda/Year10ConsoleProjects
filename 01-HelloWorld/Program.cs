@@ -7,7 +7,17 @@ namespace _01_HelloWorld
         static void Main(string[] args)
         {
             // 1. Output 'Hello World!' to the console screen by using 'Console.WriteLine();'
-            
+            Console.WriteLine("Your'e Stinky");
+            Console.ReadLine();
+            Console.WriteLine("ahhhhhhh, Iv'e been strucken with thou foul words");
+            Console.ReadLine();
+            Console.WriteLine("*offended gasp*");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ReadLine();
+            Console.Beep(3000, 4000);
+            Console.ReadLine();
+            Console.WriteLine("Frick off");
+            Console.ReadLine();
 
             // 2. Make the program wait for input by using 'Console.ReadLine();'
             
@@ -27,7 +37,7 @@ EXTENSION TASKS:
 QUESTIONS:
         
 1. What is the difference between input and output?
-
+input is what youre giving the computer and output is what the computer is giving you
 
 
 
