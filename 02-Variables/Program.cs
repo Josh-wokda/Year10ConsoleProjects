@@ -7,16 +7,19 @@ namespace _02_Variables
         static void Main(string[] args)
         {
             // 1. Create a string variable and assign it a value
-            
+            string name = "Jarrah";
+            string name2 = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
 
             // 2. Output a message that contains this variable
-
-
+            Console.WriteLine("Hello " + name.ToUpper() + " and click this link " + name2);
+            Console.WriteLine("trust me, its not a rickroll");
 
             // 3. Make the program wait for input
-
-
+            Console.ReadLine();
+            Console.WriteLine("alright, fine youve forced me to do this");
+            Console.ReadLine();
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 
         }
     }
@@ -34,11 +37,11 @@ EXTENSION TASKS:
 QUESTIONS:
         
 1. What is a variable?
-
+something the computer remembers
 
 
 2. What is a string?
-
+a piece of text for the computer to write
 
 
 EXAMPLE:

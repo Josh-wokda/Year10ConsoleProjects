@@ -14,6 +14,7 @@ namespace _01_HelloWorld
             Console.WriteLine("*offended gasp*");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.ReadLine();
+            Console
             Console.Beep(3000, 4000);
             Console.ReadLine();
             Console.WriteLine("Frick off");
