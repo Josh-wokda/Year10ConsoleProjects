@@ -10,13 +10,25 @@ namespace _04_Variables3
             //    Create the correct variables using 3 different data types so that the WriteLine statement outputs:
             //    "As of 2016 the population of China was 1.379 billion."
 
-
+            int year = 1969;
+            string country = "Alabama";
+            float population = 10.69f;
 
 
             
             // Do not modify these lines:
 
             Console.WriteLine($"As of {year.ToString()} the population of {country} was {population.ToString()} billion.");
+            Console.ReadLine();
+
+
+            // Extension task
+
+            int yearo = 1999;
+            string name = "Schlagg";
+            float fat = 352.5f;
+
+            Console.WriteLine($"In the year {yearo.ToString()}, there were {fat.ToString()} losses of life due to the crimes of {name}");
             Console.ReadLine();
         }
     }
@@ -33,6 +45,7 @@ QUESTIONS:
         
 1. What is a the purpose of 'ToString()' for some of the variables?
 
+converts an int or float to a string so it can be written by the computer
 
 
 
