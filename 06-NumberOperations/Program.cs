@@ -13,24 +13,66 @@ namespace _06_NumberOperations
 
             // 1. Now do the same for the variable 'y'
 
-
+            Console.WriteLine("now enter a number for y you donkey");
+            float y = float.Parse(Console.ReadLine());
 
 
             // We can then perform some mathematical operations on it. E.g. addition with +
             
-            Console.WriteLine("X plus Y = " + (x + y));
+            Console.WriteLine("now guess");
+            Console.WriteLine("guess what they make when put together you clown");
+
+            float answer = float.Parse(Console.ReadLine());
+
+            if (answer == (x + y))
+            {
+                Console.WriteLine("good you got it correct");
+            }
+
+            else
+            {
+                Console.WriteLine("dead wrong you idiot");
+            }
 
             // 2. Try doing multiplication with * 
             
+            Console.ReadLine();
+            Console.WriteLine("now for your next question what is the answer if you multiply them");
 
-            
+            float answertwo = float.Parse(Console.ReadLine());
+
+            if (answertwo == (x*y))
+            {
+                Console.WriteLine("wooow, youre really good at this arent you");
+            }
+
+            else
+            {
+                Console.WriteLine("haha, youre so stupid how did you get that wrong multiplication is easy");
+            }
+
             // 3. Subtraction with - 
-                
-                
-                
+
+            Console.ReadLine();
+            Console.WriteLine("righty ho then onto subtraction");
+            Console.WriteLine($"youll be doing {x} - {y}, lets try and get it right");
+
+            float answerthree = float.Parse(Console.ReadLine());
+
+            if (answerthree == (x - y))
+            {
+                Console.WriteLine("damn nerrrd!");
+            }
+
+            else
+            {
+                Console.WriteLine("oh. my. god. you are the most stupid person i think ive seen in my life");
+            }
+
             // 4. Division with /
 
-            
+            Console.ReadLine();
+            Console.WriteLine("alright final question and then i dont have to deal with you anymore");
 
             // 5. Wait for input before ending
 

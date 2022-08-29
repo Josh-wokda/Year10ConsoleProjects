@@ -7,21 +7,38 @@ namespace _05_Input
         static void Main(string[] args)
         {
             // 1. Ask for the user's name
+            Console.WriteLine("Hi, whats your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Nice to meet you {name} :)");    
+            Console.ReadLine();
 
+            //Extension Task
+            Console.WriteLine("How was your day?");
+            string day = Console.ReadLine();
+               
 
+            if (day == "good")
+            {
+                Console.WriteLine("Thats good ;)");
+            }
 
-            // 2. Assign the result to a variable
+            else if (day == "bad")
+            {
+                Console.WriteLine("Oh, that not very good");
+            }
 
+            else if (day == "suck my cock")
+            {
+                Console.WriteLine($"Well if you insist {name}");
+            }
 
+            else
+            {
+                Console.WriteLine("Thats alright ig");
+            }
 
-            // 3. Output a message containing the user's name. e.g. "Hello John!"
-
-
-
-            // 4. Wait for input before closing the program
-
-
-
+            Console.ReadLine();
+            
         }
     }
 }
@@ -37,12 +54,12 @@ EXTENSION TASKS:
 QUESTIONS:
         
 1. What does assignment mean?
-
+assigning a value to a variable
 
 
 
 2. What does Console.ReadLine() do?
-
+it takes a string input from the user
 
 
 
