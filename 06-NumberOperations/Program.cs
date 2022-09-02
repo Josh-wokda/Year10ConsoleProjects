@@ -7,7 +7,7 @@ namespace _06_NumberOperations
         static void Main(string[] args)
         {
             // This is how we can store user input as a floating point number
-            
+
             Console.WriteLine("Please enter a number for X:");
             float x = float.Parse(Console.ReadLine());
 
@@ -18,7 +18,7 @@ namespace _06_NumberOperations
 
 
             // We can then perform some mathematical operations on it. E.g. addition with +
-            
+
             Console.WriteLine("now guess");
             Console.WriteLine("guess what they make when put together you clown");
 
@@ -35,13 +35,13 @@ namespace _06_NumberOperations
             }
 
             // 2. Try doing multiplication with * 
-            
+
             Console.ReadLine();
             Console.WriteLine("now for your next question what is the answer if you multiply them");
 
             float answertwo = float.Parse(Console.ReadLine());
 
-            if (answertwo == (x*y))
+            if (answertwo == (x * y))
             {
                 Console.WriteLine("wooow, youre really good at this arent you");
             }
@@ -73,12 +73,123 @@ namespace _06_NumberOperations
 
             Console.ReadLine();
             Console.WriteLine("alright final question and then i dont have to deal with you anymore");
+            Console.WriteLine($"whats {x} divided by {y}");
+
+            float answerfour = float.Parse(Console.ReadLine());
+
+            if (answerfour == (x / y))
+            {
+                Console.WriteLine("god damnit!");
+            }
+
+            else
+            {
+                Console.WriteLine("haha sucked in");
+            }
+
+            Console.WriteLine("alright cya you sucked to deal with");
 
             // 5. Wait for input before ending
 
+            Console.ReadLine();
 
-
+            
         }
+        
+        // Extension 1
+        private static void SameButDoubles()
+        {
+            // This is how we can store user input as a floating point number
+
+            Console.WriteLine("Please enter a number for X:");
+            double x2 = double.Parse(Console.ReadLine());
+
+            // 1. Now do the same for the variable 'y'
+
+            Console.WriteLine("now enter a number for y you donkey");
+            double y2 = double.Parse(Console.ReadLine());
+
+
+            // We can then perform some mathematical operations on it. E.g. addition with +
+
+            Console.WriteLine("now guess");
+            Console.WriteLine("guess what they make when put together you clown");
+
+            double answer2 = double.Parse(Console.ReadLine());
+
+            if (answer2 == (x2 + y2))
+            {
+                Console.WriteLine("good you got it correct");
+            }
+
+            else
+            {
+                Console.WriteLine("dead wrong you idiot");
+            }
+
+            // 2. Try doing multiplication with * 
+
+            Console.ReadLine();
+            Console.WriteLine("now for your next question what is the answer if you multiply them");
+
+            double answertwo2 = double.Parse(Console.ReadLine());
+
+            if (answertwo2 == (x2 * y2))
+            {
+                Console.WriteLine("wooow, youre really good at this arent you");
+            }
+
+            else
+            {
+                Console.WriteLine("haha, youre so stupid how did you get that wrong multiplication is easy");
+            }
+
+            // 3. Subtraction with - 
+
+            Console.ReadLine();
+            Console.WriteLine("righty ho then onto subtraction");
+            Console.WriteLine($"youll be doing {x2} - {y2}, lets try and get it right");
+
+            double answerthree2 = double.Parse(Console.ReadLine());
+
+            if (answerthree2 == (x2 - y2))
+            {
+                Console.WriteLine("damn nerrrd!");
+            }
+
+            else
+            {
+                Console.WriteLine("oh. my. god. you are the most stupid person i think ive seen in my life");
+            }
+
+            // 4. Division with /
+
+            Console.ReadLine();
+            Console.WriteLine("alright final question and then i dont have to deal with you anymore");
+            Console.WriteLine($"whats {x2} divided by {y2}");
+
+            double answerfour2 = double.Parse(Console.ReadLine());
+
+            if (answerfour2 == (x2 / y2))
+            {
+                Console.WriteLine("god damnit!");
+            }
+
+            else
+            {
+                Console.WriteLine("haha sucked in");
+            }
+
+            Console.WriteLine("alright cya you sucked to deal with");
+
+            // 5. Wait for input before ending
+
+            Console.ReadLine();
+        }
+
+        // Extension 2
+
+
     }
 }
 
