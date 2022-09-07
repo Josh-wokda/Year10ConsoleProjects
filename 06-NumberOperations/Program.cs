@@ -93,7 +93,19 @@ namespace _06_NumberOperations
 
             Console.ReadLine();
 
-            
+            // Extension 2
+            Console.WriteLine(x % y);
+            Console.ReadLine();
+            Console.ReadLine();
+
+            // Extension 3
+            // it wont be completely accurate because you sometimes end up with decimals
+
+            Console.WriteLine("please enter for x");
+            int intx = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter for y");
+            int inty = int.Parse(Console.ReadLine());
+            Console.WriteLine(intx / inty);
         }
         
         // Extension 1
@@ -187,7 +199,8 @@ namespace _06_NumberOperations
             Console.ReadLine();
         }
 
-        // Extension 2
+        
+        
 
 
     }
@@ -205,15 +218,16 @@ EXTENSION TASKS:
 QUESTIONS:
         
 1. What does "float.Parse" do?
-
+converts the string from the users input into a float
 
 
 2. What is a parameter? Give an example of where you have used one.
-
+a parameter is a certain area for a line of code to look for something such as user input
+float x = float.Parse(Console.Readline());
 
 
 3. Why is the 'Console.ReadLine()' a parameter to float.Parse?
-
+because float.Parse is converting the users input
 
 
 
